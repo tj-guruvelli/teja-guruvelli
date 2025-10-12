@@ -4,6 +4,13 @@ import Link from "next/link";
 export default function ProjectsPage() {
 	const projects = [
 		{
+			title: "Personal Blog",
+			description: "My personal blog with articles on tech, engineering, and my Georgia Tech journey",
+			image: "/imgs/web.jpg", // You can replace this with a more appropriate image
+			link: "https://yxlow.github.io/", // Replace with your Jekyll blog URL
+			details: ["Articles on programming, engineering, machine learning, and more"],
+		},
+		{
 			title: "Github",
 			description: "Check out my work on Github",
 			image: "/imgs/github.jpg",

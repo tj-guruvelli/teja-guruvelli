@@ -1,0 +1,23 @@
+export type SharePlatform = {
+	type: string;
+	icon: string;
+	link: string;
+};
+
+export const sharePlatforms: SharePlatform[] = [
+	{
+		type: "Twitter",
+		icon: "fa-brands fa-square-x-twitter",
+		link: "https://twitter.com/intent/tweet?text=TITLE&url=URL",
+	},
+	{
+		type: "Facebook",
+		icon: "fab fa-facebook-square",
+		link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL",
+	},
+	{
+		type: "Telegram",
+		icon: "fab fa-telegram",
+		link: "https://t.me/share/url?url=URL&text=TITLE",
+	},
+];

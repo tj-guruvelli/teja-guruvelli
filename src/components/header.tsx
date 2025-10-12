@@ -44,12 +44,6 @@ export default function Header() {
 							Experiences
 						</Link>
 						<Link
-							href="/interests-hobbies"
-							className="transform hover:scale-125 hover:text-gray-500 transition-all duration-300"
-						>
-							Interests/Hobbies
-						</Link>
-						<Link
 							href="/projects"
 							className="transform hover:scale-125 hover:text-gray-500 transition-all duration-300"
 						>
@@ -82,13 +76,7 @@ export default function Header() {
 						>
 							Experiences
 						</Link>
-						<Link
-							href="/interests-hobbies"
-							className="hover:text-gray-300"
-							onClick={() => setIsMenuOpen(false)}
-						>
-							Interests/Hobbies
-						</Link>
+
 						<Link
 							href="/projects"
 							className="hover:text-gray-300"

@@ -124,12 +124,14 @@ export default function Experiences() {
 							</Link>
 						</div>
 
-						<div className="relative w-100 md:right-50 h-100 flex justify-center items-center mt-8 md:mt-0 md:ml-5">
+						<div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
 							<Image
 								src="/imgs/doc.png"
 								alt="Resume document"
-								fill
+								width={400}
+								height={500}
 								className="object-contain"
+								priority
 							/>
 						</div>
 					</div>

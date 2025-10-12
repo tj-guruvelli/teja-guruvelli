@@ -23,7 +23,7 @@ export function ProjectCard({
 		<div className="overflow-hidden rounded-lg bg-white shadow-md transform hover:scale-105 transition-all duration-300">
 			{/* Image container with no padding or margin */}
 			{image && (
-				<div className="relative w-full h-100">
+				<div className="relative w-full h-64">
 					<Image
 						src={image}
 						alt={title}

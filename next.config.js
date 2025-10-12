@@ -4,6 +4,18 @@ const nextConfig = {
 	images: {
 		unoptimized: true,
 	},
+	async rewrites() {
+		return [{ source: "/rss.xml", destination: "/rss" }];
+	},
+	async redirects() {
+		return [
+			{
+				source: "/interests-hobbies",
+				destination: "/",
+				permanent: true,
+			},
+		];
+	},
 };
 
 module.exports = nextConfig;

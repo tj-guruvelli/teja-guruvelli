@@ -6,17 +6,19 @@ export default function About() {
 		<main className="pt-24 min-h-screen">
 			<section className="py-12 bg-gray-800">
 				<div className="container mx-auto px-4">
-					<div className="flex flex-col md:flex-row gap-12">
+					<div className="flex flex-col md:flex-row">
 						<div className="md:w-1/2">
-							<Image
-								src="/imgs/IMG_5276.JPG"
-								alt="Teja Guruvelli"
-								width={560}
-								height={660}
-								className="w-full h-auto"
-							/>
+							<div className="relative w-full h-[600px]">
+								<Image
+									src="/imgs/IMG_5276.JPG"
+									alt="Teja Guruvelli"
+									fill
+									className="object-cover object-center"
+									priority
+								/>
+							</div>
 						</div>
-						<div className=" md:w-1/2 md:absolute md:right-50 md:top-1/5 z-20 mt-[-100px] md:mt-0">
+						<div className="md:w-1/2">
 							<div className="bg-black text-white p-12 h-full flex flex-col justify-center">
 								<h1 className="text-4xl font-bold mb-8">About Me</h1>
 								<p className="mb-4">
@@ -32,8 +34,9 @@ export default function About() {
 								</p>
 								<p className="mb-4">
 									When I'm not coding or studying, you can find me participating
-									in various athletic activities or enjoying the outdoors. I believe in maintaining a
-									balanced lifestyle that nurtures both mind and body.
+									in various athletic activities or enjoying the outdoors. I
+									believe in maintaining a balanced lifestyle that nurtures both
+									mind and body.
 								</p>
 								<p>
 									I'm constantly seeking new challenges and opportunities to
