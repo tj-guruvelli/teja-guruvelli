@@ -4,23 +4,26 @@ import Link from "next/link";
 export default function ProjectsPage() {
 	const projects = [
 		{
-			title: "Personal Blog",
-			description: "My personal blog with articles on tech, engineering, and my Georgia Tech journey",
-			image: "/imgs/web.jpg", // You can replace this with a more appropriate image
-			link: "https://yxlow.github.io/", // Replace with your Jekyll blog URL
-			details: ["Articles on programming, engineering, machine learning, and more"],
+			title: "Knowledge Archives Blog",
+			description:
+				"My personal blog with articles on tech, engineering, and my Georgia Tech journey",
+			image: "/imgs/shield.gif", // You can replace this with a more appropriate image
+			link: "https://tj-guruvelli.github.io/tjguru.com/", // Replace with your Jekyll blog URL
+			details: [
+				"Articles on programming, engineering, machine learning, and more",
+			],
 		},
 		{
 			title: "Github",
 			description: "Check out my work on Github",
-			image: "/imgs/github.jpg",
+			image: "/imgs/github.gif",
 			link: "https://github.com/tj-guruvelli",
 			details: [],
 		},
 		{
 			title: "AI Privacy & Security",
 			company: "Clemson Creative Inquiry",
-			image: "/imgs/vit.png",
+			image: "/imgs/vit.gif",
 			description:
 				"Objective: Examine critical security flaws in AI systems and distinguished appropriate defenses by designing and implementing AI and machine learning systems.",
 			details: [
@@ -31,7 +34,7 @@ export default function ProjectsPage() {
 		{
 			title: "Administrative Console and Scheduler Scripts",
 			company: "Clemson Energy Visualization & Analytics Center (CEVAC)",
-			image: "/imgs/Power.png",
+			image: "/imgs/dashboard.gif",
 			description:
 				"Objective: CEVAC is leading Clemson to a carbon-neutral campus.",
 			details: [
@@ -42,7 +45,7 @@ export default function ProjectsPage() {
 		{
 			title: "IBM in Watson AI",
 			company: "Clemson Creative Inquiry",
-			image: "/imgs/ibm.png",
+			image: "/imgs/ibm.gif",
 			description:
 				"Objective: Engage in high-level discussions such as the varieties and capabilities of existing AI/ML technologies, the ethical implications of AI/ML in society, and common techniques in AI/ML",
 			details: [
@@ -50,20 +53,12 @@ export default function ProjectsPage() {
 			],
 			link: "/docs/poster.pdf",
 		},
-		{
-			title: "Remain Healthy",
-			description:
-				"A blog post on health around COVID-19 using ArcGIS StoryMaps",
-			image: "/imgs/health.jpg",
-			link: "https://arcg.is/1PHzHj0",
-			details: [],
-		},
 
 		{
 			title: "Evolution of Mclaren",
 			description:
 				"A website showcasing Mclaren using React.js, Javascript, and Tailwind CSS deployed on Vercel",
-			image: "/imgs/mclarenP1.png",
+			image: "/imgs/mclaren.gif",
 			link: "https://mclarenauto.vercel.app/",
 			details: [],
 		},
@@ -71,8 +66,16 @@ export default function ProjectsPage() {
 			title: "Web Dev Portfolio",
 			description:
 				"A portfolio website for a computer class for web development using HTML, CSS, javascript, and PHP",
-			image: "/imgs/web.jpg",
+			image: "/imgs/web.gif",
 			link: "http://demowebpage.life/",
+			details: [],
+		},
+		{
+			title: "Remain Healthy",
+			description:
+				"A blog post on health around COVID-19 using ArcGIS StoryMaps",
+			image: "/imgs/health.jpg",
+			link: "https://arcg.is/1PHzHj0",
 			details: [],
 		},
 		{
