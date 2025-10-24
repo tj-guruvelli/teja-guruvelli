@@ -62,14 +62,7 @@ export default function ProjectsPage() {
 			link: "https://mclarenauto.vercel.app/",
 			details: [],
 		},
-		{
-			title: "Web Dev Portfolio",
-			description:
-				"A portfolio website for a computer class for web development using HTML, CSS, javascript, and PHP",
-			image: "/imgs/web.gif",
-			link: "http://demowebpage.life/",
-			details: [],
-		},
+
 		{
 			title: "Remain Healthy",
 			description:
